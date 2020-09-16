@@ -16,7 +16,9 @@ Base de datos:
 Consideraciones para la instalación
 -----------------------------------------------------------------------
 Instalar éstos paquetes:
+
 	go get github.com/mattn/go-sqlite3
+	
 	go get github.com/gorilla/mux
 	
 -----------------------------------------------------------------------
@@ -95,12 +97,14 @@ Sucursales de prueba para cargar en la base:
 Puntos de prueba para enviar POST a la aplicación en http://localhost:10000/sucursalmascercana:
 
 Caso exitoso:
+
 	{
 		"Lat": "-34.602126", 
 		"Long": "-58.393904"
 	}
 	
 Caso NO exitoso:
+
 	{
 		"Lat": "aaaaaa", 
 		"Long": "175.472636"
