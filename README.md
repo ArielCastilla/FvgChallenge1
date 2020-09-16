@@ -93,8 +93,10 @@ Sucursales de prueba para cargar en la base:
 		"Latitud": "-23.536447", 
 		"Longitud": "-65.381489" 
 	}
-
+	
+-----------------------------------------------------------------------
 Puntos de prueba para enviar POST a la aplicación en http://localhost:10000/sucursalmascercana:
+-----------------------------------------------------------------------
 
 Caso exitoso:
 
