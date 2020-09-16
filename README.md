@@ -34,6 +34,7 @@ GETs:
 		Muestra la sucursal correspondiente al id que se requiere. Ejemplo:
 			http://localhost:10000/sucursal/1
 POSTs:
+
 	http://localhost:10000/altasucursal
 		Graba una sucursal en la base de datos. Ejemplo:
 			{
