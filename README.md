@@ -65,7 +65,6 @@ Sucursales de prueba para cargar en la base:
 		"Longitud": "-58.503884" 
 	}
 
-
 	{
 		"Id": "2", 
 		"Direccion": "Microcentro", 
