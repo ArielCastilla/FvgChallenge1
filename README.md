@@ -1,4 +1,3 @@
-# FvgChallenge1
 -----------------------------------------------------------------------
 Consideraciones generales
 -----------------------------------------------------------------------
@@ -24,10 +23,13 @@ Instalar éstos paquetes:
 Enpoints
 -----------------------------------------------------------------------
 GETs:
+
 	http://localhost:10000/
 		Página home con texto.
+		
 	http://localhost:10000/all
 		Muestra todas las sucursales existetes en la base de datos.
+		
 	http://localhost:10000/sucursal/{id}
 		Muestra la sucursal correspondiente al id que se requiere. Ejemplo:
 			http://localhost:10000/sucursal/1
@@ -40,6 +42,7 @@ POSTs:
 				"Latitud": "-34.511120", 
 				"Longitud": "-58.503884" 
 			}
+			
 	http://localhost:10000/sucursalmascercana
 		Recibe coordeadas de latitud y longitud y muestra la sucursal mas cercana. Ejemplo:
 			{
